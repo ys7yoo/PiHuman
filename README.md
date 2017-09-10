@@ -19,7 +19,11 @@ See also http://www.pyimagesearch.com/2014/11/10/histogram-oriented-gradients-ob
   python detectHuman.py -i [IMAGES]
   ```
 
-# Dataset to test 
+
+# Dlib version
+
+
+# Datasets to test 
 
 1. INRIA Person Dataset
 http://pascal.inrialpes.fr/data/human/
