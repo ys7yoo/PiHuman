@@ -5,6 +5,7 @@ Let's test and compare human detections of OpenCV and Dlib
 # OpenCV version
 
 Nice code from : http://www.pyimagesearch.com/2015/11/09/pedestrian-detection-opencv/
+See also http://www.pyimagesearch.com/2014/11/10/histogram-oriented-gradients-object-detection/ for some background of HOG-based object detection.
 
 0. Install OpenCV
 
@@ -18,3 +19,9 @@ Nice code from : http://www.pyimagesearch.com/2015/11/09/pedestrian-detection-op
   python detectHuman.py -i [IMAGES]
   ```
 
+# Dataset to test 
+
+1. INRIA Person Dataset
+http://pascal.inrialpes.fr/data/human/
+
+2. More challenging datasets...
