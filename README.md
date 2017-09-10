@@ -1,6 +1,6 @@
 # PiHuman
 
-Let's test Human detections of OpenCV and Dlib
+Let's test and compare human detections of OpenCV and Dlib
 
 # OpenCV version
 
