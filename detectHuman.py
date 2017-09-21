@@ -52,3 +52,5 @@ for imagePath in paths.list_images(args["images"]):
     cv2.imshow("After NMS", image)
     cv2.waitKey(0)
 
+    # write result to a file
+    cv2.imwrite("out.bmp", image)
