@@ -17,7 +17,7 @@ See also http://www.pyimagesearch.com/2014/11/10/histogram-oriented-gradients-ob
 
 2. run like this.
   ```bash
-  python detectHuman.py -i [IMAGES]
+  python detectHuman.py -i [FOLDER NAME OF IMAGES]
   ```
 
 
