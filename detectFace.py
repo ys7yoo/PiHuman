@@ -14,6 +14,8 @@ args = vars(ap.parse_args())
 
 # initialize the face detector
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+#face_cascade = cv2.CascadeClassifier('haarcascade_upperbody.xml')
+
 
 
 
