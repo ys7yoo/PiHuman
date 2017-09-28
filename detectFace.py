@@ -21,13 +21,19 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 # loop over the image paths
 for imagePath in paths.list_images(args["images"]):
+    # print filename
+    print(imagePath)
+
     image = cv2.imread(imagePath)
+    if image is None:
+        continue
+
     print(image.shape)
     # image = imutils.resize(image, width=min(400, image.shape[1]))
 
     # convert to gray image
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-    print(gray.shape)
+    # print(gray.shape)
 
     # detect faces
     faces = face_cascade.detectMultiScale(gray, 1.3, 5)
